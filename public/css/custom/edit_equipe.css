@@ -1,0 +1,77 @@
+.hero-area{
+    padding: 50px;
+}
+
+.hero-area{
+    padding: 50px;
+}
+
+.mdl-card{
+    min-height: inherit !important;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.form-control{
+    background-image: linear-gradient(#5691BA,#5691BA),linear-gradient(#d2d2d2,#d2d2d2) !important;
+}
+
+.mdl-button.mdl-button--colored{
+    color: #5691BA;
+}
+
+.color-box{
+    height: 20px;
+    width: 20px;
+    margin: 10px 15px 20px 15px;
+    border: 0px solid black;
+    border-radius: 4px;
+}
+
+.add-button{
+    background-color: #5691BA !important;
+    color: white !important;
+    margin-bottom: 30px;
+}
+
+.member-photo{
+    width: 50px;
+    height: 50px;
+}
+
+.avatar{
+
+    height: 200px;
+}
+
+.form-group-end{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#new{
+    display: none;
+}
+
+.delete-button{
+    background-color: #b71c1c !important;
+    color: white;
+    float: right;
+}
+
+.save-button{
+    background-color: #5691BA !important;
+    color: white;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.gender{
+    margin-right: 2vw;
+}
+
+.proximo{
+    margin-bottom: 0;
+}

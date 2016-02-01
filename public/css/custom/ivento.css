@@ -1,0 +1,70 @@
+.hero-area{
+	background: url("../../img/headers/ivento.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+@media (min-width: 1200px){
+	.hero-area {
+		padding: 100px 0;
+		background-attachment: fixed;
+	}
+}
+
+#why{
+	background-size: cover;
+}
+
+.clientes-img{
+	max-width: 100%;
+}
+
+
+.ivento{
+	position: absolute;
+	max-height: 500px;
+	left: 240px;
+	border-radius: 10px;
+}
+
+@media (max-width: 1199px){
+	.ivento{
+		left: 140px;
+	}
+}
+
+@media (max-width: 991px){
+	.ivento{
+		left: 40px;
+		width: auto !important;
+	}
+}
+
+@media (max-width: 767px){
+	.ivento{
+		display: none;
+	}
+}
+
+.margin-top-0{
+	margin-top: 0 !important;
+}
+
+.video-box{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	max-width: 100% !important;
+	margin: auto;
+}
+
+@media (min-width: 1100px){
+	.cliente-box{
+		padding: 0 50px !important;
+	}
+}
+
+.section-title {
+	font-size: 38px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+#screenshot .section-header{
+	margin: 0px !important;
+}
+
+#screenshot .portfolio figure.effect-julia figcaption{
+	background: rgba(32, 148, 191, 0.8);
+}
+
+.hero-area{
+	 background: url("../../img/headers/port.jpg") no-repeat;
+	 background-attachment: fixed;
+	 background-size: contain;
+ }
+
+@media (min-width: 1200px){
+	.hero-area {
+		padding: 100px 0;
+		background-attachment: fixed;
+	}
+}
+
+.port-box{
+	padding: 10px !important;
+	overflow: hidden;
+}
+.port-card{
+	width: 100%;
+}

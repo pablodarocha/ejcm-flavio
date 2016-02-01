@@ -1,0 +1,161 @@
+.hero-area{
+	background: url("../../img/headers/quem.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+@media (min-width: 1200px){
+	.hero-area {
+		padding: 100px 0;
+		background-attachment: fixed;
+		height: 100vh;
+	}
+}
+
+.equipe-diretoria-s{
+	font-size: 9px !important;
+	font-weight: normal;
+}
+
+.equipe-s-box{
+	padding-left: 2.5px !important;
+	padding-right: 2.5px !important;
+}
+
+.clear-s{
+	clear: both;
+}
+
+.target-big{
+	display: none;
+}
+
+.target-small{
+	display: inherit;
+}
+@media(min-width: 768px){
+
+	.target-big{
+		display: inherit;
+	}
+
+	.target-small{
+		display: none;
+	}
+
+	.clear-s{
+		clear: none;
+	}
+
+	.equipe-s-box{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.equipe-centro{
+		padding: 0px !important;
+	}
+	.equipe-left{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.equipe-right{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+}
+
+@media (min-width: 540px) and (max-width: 767px){
+	.equipe-diretoria-s{
+		font-size: 12px !important;
+	}
+}
+
+@media(min-width: 1026px){
+	.equipe-diretoria-s{
+		font-size: 12px !important;
+	}
+
+	.mission-text{
+		font-size: 22px;
+		font-weight: 100;
+		line-height: 27px;
+	}
+}
+
+.equipe-diretoria{
+	font-weight: normal;
+}
+
+.avatar, .avatar-2{
+	width: 100%;
+	border-radius: 200px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background: url("../../img/equipe/f.jpg") no-repeat;
+}
+
+
+@media (min-width: 426px) and (max-width: 767px){
+	.tablet-padding{
+		padding: 0px 10vw !important;
+	}
+	.tablet-padding-s{
+		padding: 0px 5vw !important;
+	}
+}
+
+.no-padding{
+	padding: 0px !important;
+}
+
+
+
+.img-responsive{
+	width: 100%;
+	max-width: 283px !important;
+}
+
+.mission-text-box{
+	margin-top: 40px;
+}
+
+.vision-img{
+	float: right;
+	margin: 0px !important;
+}
+
+.parceiros-img{
+	width: 100%;
+}
+
+.valores{
+	margin-bottom: 0px;
+}
+
+.oriental{
+	margin-bottom: 15px;
+}
+
+.honra{
+	color: #5691BA;
+}
+
+@media (max-width: 768px) {
+	.hide-sm{
+		display: none;
+	}
+	.mission-text-box{
+		margin-top: 0 !important;
+	}
+}
+
+.margin-auto{
+	margin: auto;
+}

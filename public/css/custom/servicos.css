@@ -1,0 +1,32 @@
+.hero-area{
+	background: url("../../img/headers/servicos3.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	height: 60vh;
+	width: 100%;
+}
+
+@media (min-width: 1200px){
+	.hero-area {
+		padding: 100px 0;
+		background-attachment: fixed;
+		height: 100vh;
+	}
+}
+
+#features{
+	padding: 50px 0 !important;
+}
+
+.parceiros-img{
+	width: 100%;
+}
+
+@media (min-width: 1100px){
+	.cliente-box{
+		padding: 0 50px !important;
+	}
+}
