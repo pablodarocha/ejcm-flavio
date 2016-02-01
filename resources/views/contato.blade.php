@@ -15,8 +15,7 @@
 
 			<div class="col-md-12">
 
-				<div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation"
-					 data-spy="affix" data-offset-top="200">
+				<div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
 					<div class="container">
 						<div class="navbar-header">
 							<a class="logo-left " href="{{URL::to('/')}}"><img class="header-logo" src = "{{asset('img/ejcms.png')}}" alt = ""/></a>

@@ -7,15 +7,23 @@
 }
 
 .hero-area{
-	 background: url("../../img/headers/port.jpg") no-repeat;
-	 background-attachment: fixed;
-	 background-size: contain;
+	 background: url("../../img/headers/portfolio.png") no-repeat center center;;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 150px;
  }
 
 @media (min-width: 1200px){
 	.hero-area {
 		padding: 100px 0;
 		background-attachment: fixed;
+		height: 100vh;
 	}
 }
 

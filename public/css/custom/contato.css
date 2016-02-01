@@ -3,8 +3,16 @@
 }
 
 .hero-area{
-	background: url("../../img/headers/contato.jpg") no-repeat;
+	background: url("../../img/headers/contato2.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 150px;
 }
 
 #contact{
@@ -14,15 +22,17 @@
 @media (min-width: 1200px){
 	.hero-area {
 		padding: 100px 0;
+		background-attachment: fixed;
+		height: 100vh;
 	}
 }
 
-@media (min-width: 1300px){
-	.hero-area {
-		background-attachment: fixed;
-		background-size: contain;
-	}
-}
+/*@media (min-width: 1300px){*/
+	/*.hero-area {*/
+		/*background-attachment: fixed;*/
+		/*background-size: contain;*/
+	/*}*/
+/*}*/
 
 .text-area{
 	resize: none;
